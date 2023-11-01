@@ -22,7 +22,7 @@ resource "azurerm_resource_group" "imran_app_rg" {
 }
 
 resource "azurerm_storage_account" "storage_account" {
-  name                     = "Imranariznew"
+  name                     = "imranariznew"
   resource_group_name      = "app-grp0611"
   location                 = "North Europe"
   account_tier             = "Standard"
