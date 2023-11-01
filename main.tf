@@ -15,7 +15,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "imran_app_rg" {
-    name = "app-grpiyi"
+    name = "app-grpiyi1"
     location = "North Europe"
   
 }
