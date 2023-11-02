@@ -5,6 +5,13 @@ terraform {
       version = "3.77.0"
     }
   }
+  backend "azurerm" {
+    resource_group_name  = "app-grp611"
+    storage_account_name = "storagexxxx123"
+    container_name       = "tfstate"
+    key                  = "terraform.tfstate"
+    
+  }
 }
 provider "azurerm" {
   subscription_id = "24fe603e-6b8f-4384-a5c7-cc1e8f9c1a65"
@@ -15,7 +22,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "imran_app_rg" {
-    name = "app-grpiyi12"
+    name = "app-grp123"
     location = "North Europe"
   
 }
