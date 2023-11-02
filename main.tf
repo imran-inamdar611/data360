@@ -10,6 +10,9 @@ terraform {
     storage_account_name = "storagexxxx123"
     container_name       = "tfstate"
     key                  = "terraform.tfstate"
+    use_azuread_auth     = true
+    subscription_id      = "24fe603e-6b8f-4384-a5c7-cc1e8f9c1a65"
+    tenant_id            = "ab8b6a07-e366-49dc-b3ca-0613f7fac7e8"
     
   }
 }
