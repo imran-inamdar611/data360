@@ -15,13 +15,13 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "imran_app_rg" {
-    name = "app-grp123123w5"
+    name = "app-grp12312351w"
     location = "North Europe"
   
 }
 
 resource "azurerm_storage_account" "storage_account" {
-  name                     = "imranew1"
+  name                     = "imranew12"
   resource_group_name      = azurerm_resource_group.imran_app_rg.name
   location                 = azurerm_resource_group.imran_app_rg.location
   account_tier             = "Standard"
