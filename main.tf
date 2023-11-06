@@ -15,7 +15,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "imran_app_rg" {
-    name = "app-grp1231234"
+    name = "app-grp1231235"
     location = "North Europe"
   
 }
